@@ -1,8 +1,8 @@
-module gorm.io/plugin/prometheus
+module github.com/wubin1989/prometheus
 
 go 1.14
 
 require (
 	github.com/prometheus/client_golang v1.19.0
-	gorm.io/gorm v1.25.0
+	github.com/wubin1989/gorm v0.0.1
 )

@@ -6,9 +6,9 @@ Collect DB Status with Prometheus
 
 ```go
 import (
-  "gorm.io/gorm"
+  "github.com/wubin1989/gorm"
   "gorm.io/driver/sqlite"
-  "gorm.io/plugin/prometheus"
+  "github.com/wubin1989/prometheus"
 )
 
 db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{})
